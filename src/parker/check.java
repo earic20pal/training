@@ -22,10 +22,31 @@ public class check {
         list.add("kumar");
         list.add("pal");
         list.add(9);
+        list.add(9);
+        for(int i=0;i<5;i++)
+        {
+            list.add(i);
+        }
+        for(int i=0;i<5;i++)
+        {
+            list.add(i);
+        }
+        for(int i=0;i<5;i++)
+        {
+            list.add(i);
+        }
         list.insertatbegining("hello1");
         list.insertatend("hello2");
         list.InsertAtIndex(3,"hello3");
-//        list.deleteAtBegining();
+        list.deleteAtBegining();
+        list.findNthElementFromEnd(3);
+        int size=list.findsizeRecusive();
+        size=list.findsizeIterative();
+        list.SwapKeys(1,4);
+        boolean isloop=list.findloop();
+        System.out.println(isloop);
+        System.out.println("after swaping 2 and 4");
+        
 //        list.deleteAtEnd();
         list.print();
         System.out.println("now reverse the list........");
